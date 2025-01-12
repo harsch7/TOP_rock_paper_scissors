@@ -83,11 +83,11 @@ function playGame()
     }
 
     if (humanScore > computerScore)
-        console.log("You win the game!");
+        alert("You win the game!");
     else if (humanScore === computerScore)
-        console.log("Game is tied, well played!");
+        alert("Game is tied, well played!");
     else
-        console.log("You lose the game!");
+        alert("You lose the game!");
 
 }
 
